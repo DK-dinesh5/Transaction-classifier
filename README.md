@@ -52,7 +52,7 @@ Make sure MySQL is running with the following credentials (or update in `app.py`
 - **Host**: localhost
 - **Port**: 3306
 - **User**: root
-- **Password**: Dkmysql@123
+- **Password**: ______
 
 ### 3. Create Database and Tables
 
@@ -252,7 +252,7 @@ This project is for educational purposes.
 
 ## 👨‍💻 Author
 
-Developed by Goppinath
+Developed by Dinesh kumar
 
 ---
 
