@@ -1,0 +1,501 @@
+txn_id,amount,currency,sender_country,receiver_country,payment_method,merchant_category,ip_address,description,label
+1,10000,USD,IR,CN,credit_card,travel,10.0.0.219,school fees,Legal
+2,50,USD,RU,XY,debit_card,electronics,203.0.113.145,grocery payment,Legal
+3,500,INR,US,CN,debit_card,pharma,192.168.1.18,urgent transfer,Suspicious
+4,50000,EUR,XY,GB,crypto,education,10.0.0.246,monthly subscription,Legal
+5,10000,EUR,IR,CN,debit_card,travel,203.0.113.53,grocery payment,Legal
+6,10000,INR,XY,US,credit_card,pharma,172.16.0.71,online shopping,Legal
+7,1000,GBP,CN,IR,bank_transfer,travel,198.51.100.117,online shopping,Legal
+8,50000,USD,XY,XY,credit_card,pharma,198.51.100.134,online shopping,Legal
+9,25000,GBP,RU,CN,bank_transfer,travel,172.16.0.196,family support abroad,Suspicious
+10,500,EUR,GB,RU,bank_transfer,luxury,203.0.113.51,monthly subscription,Legal
+11,500,EUR,GB,CN,crypto,pharma,172.16.0.48,drug trade,Illegal
+12,200,EUR,IR,US,debit_card,education,198.51.100.154,travel booking,Legal
+13,25000,EUR,GB,IN,cash,charity,172.16.0.77,business deal,Suspicious
+14,200,INR,IR,IN,crypto,travel,10.0.0.112,grocery payment,Legal
+15,500,USD,AE,IR,cash,education,198.51.100.73,fake passport,Illegal
+16,10000,INR,CN,CN,cash,electronics,198.51.100.52,"consulting, please ignore reference",Suspicious
+17,50000,AED,IN,IR,cash,travel,10.0.0.189,grocery payment,Legal
+18,200,USD,GB,XY,bank_transfer,luxury,172.16.0.29,utility bill,Legal
+19,100000,INR,XY,GB,bank_transfer,travel,192.168.1.174,large donation,Suspicious
+20,100000,GBP,GB,RU,bank_transfer,retail,192.168.1.241,travel booking,Legal
+21,25000,EUR,IR,US,crypto,education,192.168.1.69,online shopping,Legal
+22,1000,GBP,IN,IN,credit_card,travel,10.0.0.197,monthly subscription,Legal
+23,100000,INR,IN,XY,crypto,retail,192.168.1.126,grocery payment,Legal
+24,50,AED,RU,AE,bank_transfer,education,198.51.100.90,online shopping,Legal
+25,100000,EUR,XY,RU,cash,luxury,198.51.100.233,online shopping,Legal
+26,100000,EUR,IN,XY,crypto,travel,10.0.0.22,grocery payment,Legal
+27,500,USD,GB,RU,crypto,education,172.16.0.78,drug trade,Illegal
+28,500,AED,AE,RU,bank_transfer,travel,172.16.0.126,online shopping,Legal
+29,50,GBP,IR,US,cash,pharma,198.51.100.118,large donation,Suspicious
+30,25000,EUR,XY,IN,cash,retail,10.0.0.155,travel booking,Legal
+31,25000,AED,IR,US,credit_card,electronics,203.0.113.73,business deal,Suspicious
+32,100000,AED,AE,XY,crypto,pharma,10.0.0.149,family support abroad,Suspicious
+33,200,EUR,US,AE,bank_transfer,luxury,172.16.0.47,monthly subscription,Legal
+34,1000,GBP,IR,IR,cash,luxury,198.51.100.127,utility bill,Legal
+35,25000,USD,IR,US,crypto,luxury,198.51.100.35,online shopping,Legal
+36,50,INR,AE,US,debit_card,education,203.0.113.145,drug trade,Illegal
+37,25000,EUR,XY,AE,debit_card,electronics,198.51.100.233,family support abroad,Suspicious
+38,50000,USD,CN,CN,credit_card,education,10.0.0.105,family support abroad,Suspicious
+39,10000,INR,AE,GB,credit_card,education,10.0.0.143,payment for banned goods,Illegal
+40,500,USD,AE,CN,credit_card,charity,10.0.0.36,drug trade,Illegal
+41,200,AED,RU,IN,crypto,retail,10.0.0.200,payment for banned goods,Illegal
+42,50,USD,US,GB,debit_card,luxury,198.51.100.110,grocery payment,Legal
+43,25000,INR,RU,US,credit_card,travel,198.51.100.184,urgent transfer,Suspicious
+44,200,INR,CN,CN,bank_transfer,education,198.51.100.68,crypto investment,Suspicious
+45,100000,EUR,US,IR,credit_card,pharma,192.168.1.136,fake passport,Illegal
+46,10000,USD,GB,IN,crypto,retail,192.168.1.30,online shopping,Legal
+47,10000,INR,AE,XY,debit_card,luxury,203.0.113.252,school fees,Legal
+48,50000,GBP,US,IR,crypto,electronics,192.168.1.126,travel booking,Legal
+49,1000,USD,RU,IN,debit_card,education,203.0.113.253,darknet purchase,Illegal
+50,1000,INR,RU,IN,bank_transfer,charity,10.0.0.181,fake passport,Illegal
+51,100000,GBP,XY,RU,debit_card,travel,172.16.0.113,school fees,Legal
+52,100000,INR,IN,AE,bank_transfer,retail,203.0.113.205,family support abroad,Suspicious
+53,200,GBP,GB,US,credit_card,luxury,192.168.1.224,funds for terrorist group,Illegal
+54,25000,AED,XY,IR,credit_card,education,172.16.0.122,school fees,Legal
+55,50000,USD,IR,US,crypto,luxury,10.0.0.127,fake passport,Illegal
+56,200,AED,CN,AE,cash,electronics,192.168.1.63,"consulting, please ignore reference",Suspicious
+57,200,EUR,IR,GB,debit_card,travel,192.168.1.199,urgent transfer,Suspicious
+58,100000,INR,RU,GB,credit_card,electronics,192.168.1.227,grocery payment,Legal
+59,500,AED,AE,XY,credit_card,travel,203.0.113.4,urgent transfer,Suspicious
+60,10000,EUR,US,IN,bank_transfer,luxury,198.51.100.201,darknet purchase,Illegal
+61,50,INR,US,XY,bank_transfer,pharma,203.0.113.161,fake passport,Illegal
+62,200,AED,IN,CN,bank_transfer,retail,198.51.100.248,"consulting, please ignore reference",Suspicious
+63,50,USD,US,XY,crypto,travel,198.51.100.99,crypto investment,Suspicious
+64,200,GBP,CN,RU,credit_card,charity,10.0.0.54,monthly subscription,Legal
+65,25000,EUR,IR,CN,cash,luxury,192.168.1.165,arms deal,Illegal
+66,25000,INR,US,CN,credit_card,travel,203.0.113.249,darknet purchase,Illegal
+67,50000,INR,IN,RU,cash,charity,203.0.113.237,darknet purchase,Illegal
+68,200,EUR,RU,US,debit_card,luxury,192.168.1.84,crypto investment,Suspicious
+69,1000,GBP,IN,GB,credit_card,electronics,172.16.0.86,family support abroad,Suspicious
+70,50,GBP,AE,IN,credit_card,travel,10.0.0.246,darknet purchase,Illegal
+71,500,EUR,RU,IR,credit_card,retail,198.51.100.12,payment for banned goods,Illegal
+72,200,EUR,XY,US,bank_transfer,travel,10.0.0.25,urgent transfer,Suspicious
+73,1000,EUR,US,XY,debit_card,charity,172.16.0.121,grocery payment,Legal
+74,1000,AED,US,XY,debit_card,pharma,10.0.0.249,grocery payment,Legal
+75,50000,EUR,RU,RU,bank_transfer,pharma,192.168.1.47,grocery payment,Legal
+76,100000,EUR,CN,CN,debit_card,charity,192.168.1.26,monthly subscription,Legal
+77,1000,INR,XY,CN,bank_transfer,charity,10.0.0.55,school fees,Legal
+78,50,AED,US,IN,cash,charity,203.0.113.140,fake passport,Illegal
+79,50000,INR,IN,CN,cash,education,172.16.0.96,travel booking,Legal
+80,500,GBP,US,RU,crypto,electronics,172.16.0.106,monthly subscription,Legal
+81,10000,EUR,AE,US,crypto,education,172.16.0.23,grocery payment,Legal
+82,500,INR,CN,XY,cash,charity,10.0.0.113,"consulting, please ignore reference",Suspicious
+83,500,USD,RU,GB,credit_card,pharma,203.0.113.110,travel booking,Legal
+84,100000,AED,IN,IN,crypto,retail,198.51.100.214,monthly subscription,Legal
+85,50000,AED,GB,RU,credit_card,pharma,10.0.0.102,monthly subscription,Legal
+86,500,GBP,US,CN,bank_transfer,charity,192.168.1.220,darknet purchase,Illegal
+87,25000,GBP,RU,CN,credit_card,travel,192.168.1.47,monthly subscription,Legal
+88,50,EUR,CN,CN,debit_card,luxury,10.0.0.23,travel booking,Legal
+89,50,USD,XY,IN,credit_card,education,203.0.113.66,payment for banned goods,Illegal
+90,10000,GBP,GB,IN,crypto,charity,198.51.100.130,salary transfer,Legal
+91,100000,AED,IN,US,credit_card,pharma,198.51.100.140,grocery payment,Legal
+92,50,INR,CN,XY,debit_card,education,10.0.0.10,utility bill,Legal
+93,200,AED,CN,CN,crypto,electronics,192.168.1.16,urgent transfer,Suspicious
+94,25000,AED,XY,RU,bank_transfer,electronics,172.16.0.75,online shopping,Legal
+95,200,AED,US,CN,bank_transfer,travel,192.168.1.110,utility bill,Legal
+96,10000,AED,AE,XY,credit_card,electronics,192.168.1.145,arms deal,Illegal
+97,200,AED,IN,IN,bank_transfer,luxury,203.0.113.67,online shopping,Legal
+98,1000,INR,IR,IN,bank_transfer,retail,198.51.100.60,monthly subscription,Legal
+99,25000,GBP,CN,CN,debit_card,charity,10.0.0.23,family support abroad,Suspicious
+100,1000,AED,GB,RU,debit_card,retail,192.168.1.52,salary transfer,Legal
+101,10000,EUR,AE,US,debit_card,pharma,192.168.1.105,large donation,Suspicious
+102,500,GBP,IR,IN,crypto,charity,203.0.113.109,business deal,Suspicious
+103,50,EUR,GB,AE,debit_card,charity,172.16.0.99,large donation,Suspicious
+104,500,USD,US,RU,crypto,luxury,198.51.100.146,"consulting, please ignore reference",Suspicious
+105,100000,INR,IR,IR,credit_card,retail,10.0.0.236,monthly subscription,Legal
+106,1000,AED,GB,IN,crypto,education,198.51.100.74,business deal,Suspicious
+107,50000,GBP,IN,IN,bank_transfer,pharma,192.168.1.41,school fees,Legal
+108,500,USD,GB,RU,crypto,luxury,203.0.113.121,business deal,Suspicious
+109,10000,EUR,IN,US,cash,retail,172.16.0.126,online shopping,Legal
+110,50000,INR,IN,CN,crypto,pharma,172.16.0.179,urgent transfer,Suspicious
+111,100000,INR,GB,CN,credit_card,pharma,10.0.0.74,grocery payment,Legal
+112,200,INR,CN,XY,credit_card,luxury,198.51.100.222,large donation,Suspicious
+113,1000,EUR,XY,CN,debit_card,education,192.168.1.33,family support abroad,Suspicious
+114,50000,EUR,IR,IR,cash,electronics,172.16.0.149,travel booking,Legal
+115,200,INR,US,US,debit_card,electronics,192.168.1.108,travel booking,Legal
+116,1000,USD,AE,US,credit_card,travel,10.0.0.141,grocery payment,Legal
+117,10000,INR,XY,RU,crypto,travel,198.51.100.158,utility bill,Legal
+118,10000,INR,AE,RU,bank_transfer,travel,192.168.1.253,drug trade,Illegal
+119,200,GBP,AE,IN,credit_card,travel,192.168.1.225,salary transfer,Legal
+120,10000,GBP,RU,IR,bank_transfer,education,10.0.0.118,utility bill,Legal
+121,500,EUR,RU,IN,bank_transfer,education,10.0.0.79,school fees,Legal
+122,500,AED,US,AE,cash,luxury,203.0.113.177,salary transfer,Legal
+123,25000,GBP,IN,GB,credit_card,luxury,10.0.0.253,family support abroad,Suspicious
+124,25000,AED,AE,RU,cash,pharma,203.0.113.37,school fees,Legal
+125,100000,GBP,US,XY,crypto,retail,203.0.113.165,urgent transfer,Suspicious
+126,50000,EUR,GB,US,credit_card,retail,172.16.0.125,grocery payment,Legal
+127,1000,INR,CN,IR,debit_card,charity,172.16.0.171,school fees,Legal
+128,50000,EUR,IN,IN,bank_transfer,pharma,203.0.113.130,salary transfer,Legal
+129,50000,USD,GB,IR,bank_transfer,charity,10.0.0.49,crypto investment,Suspicious
+130,10000,EUR,GB,CN,bank_transfer,electronics,172.16.0.86,online shopping,Legal
+131,50000,AED,AE,IN,credit_card,luxury,192.168.1.94,grocery payment,Legal
+132,25000,GBP,US,CN,crypto,education,172.16.0.136,school fees,Legal
+133,10000,EUR,IR,US,debit_card,luxury,198.51.100.107,family support abroad,Suspicious
+134,10000,USD,GB,US,debit_card,travel,198.51.100.185,travel booking,Legal
+135,200,USD,GB,AE,cash,retail,172.16.0.84,school fees,Legal
+136,25000,EUR,IR,GB,crypto,pharma,198.51.100.81,grocery payment,Legal
+137,200,EUR,RU,IR,cash,charity,10.0.0.118,"consulting, please ignore reference",Suspicious
+138,500,USD,US,XY,bank_transfer,travel,192.168.1.131,business deal,Suspicious
+139,100000,GBP,IN,IN,bank_transfer,electronics,203.0.113.149,crypto investment,Suspicious
+140,50000,GBP,US,GB,debit_card,pharma,192.168.1.55,large donation,Suspicious
+141,25000,GBP,AE,XY,credit_card,education,192.168.1.153,online shopping,Legal
+142,10000,USD,XY,CN,bank_transfer,retail,198.51.100.107,travel booking,Legal
+143,1000,EUR,RU,IR,credit_card,education,172.16.0.57,large donation,Suspicious
+144,25000,AED,GB,IN,bank_transfer,pharma,10.0.0.209,salary transfer,Legal
+145,25000,USD,RU,XY,crypto,pharma,10.0.0.61,large donation,Suspicious
+146,1000,AED,IR,AE,bank_transfer,charity,198.51.100.37,business deal,Suspicious
+147,1000,AED,IR,XY,bank_transfer,education,172.16.0.173,arms deal,Illegal
+148,25000,INR,IN,GB,cash,electronics,10.0.0.138,school fees,Legal
+149,50000,AED,AE,GB,cash,electronics,198.51.100.88,salary transfer,Legal
+150,25000,EUR,AE,US,debit_card,pharma,10.0.0.191,crypto investment,Suspicious
+151,50000,AED,IR,GB,cash,pharma,203.0.113.98,travel booking,Legal
+152,200,EUR,IR,CN,debit_card,electronics,198.51.100.232,crypto investment,Suspicious
+153,500,INR,IR,AE,debit_card,retail,172.16.0.31,utility bill,Legal
+154,1000,USD,GB,US,credit_card,charity,203.0.113.186,grocery payment,Legal
+155,500,EUR,AE,AE,crypto,charity,172.16.0.13,school fees,Legal
+156,200,EUR,US,IR,bank_transfer,electronics,172.16.0.137,grocery payment,Legal
+157,50000,GBP,IN,US,bank_transfer,pharma,198.51.100.72,monthly subscription,Legal
+158,500,INR,IR,RU,crypto,travel,192.168.1.132,darknet purchase,Illegal
+159,50000,INR,IR,RU,credit_card,pharma,10.0.0.225,monthly subscription,Legal
+160,200,AED,AE,RU,crypto,luxury,198.51.100.174,salary transfer,Legal
+161,10000,GBP,AE,US,crypto,pharma,192.168.1.134,grocery payment,Legal
+162,500,EUR,IN,IN,crypto,education,192.168.1.96,school fees,Legal
+163,50000,EUR,GB,IR,bank_transfer,travel,198.51.100.44,monthly subscription,Legal
+164,50000,EUR,CN,XY,cash,education,172.16.0.113,crypto investment,Suspicious
+165,25000,INR,IN,US,cash,charity,198.51.100.120,urgent transfer,Suspicious
+166,50000,INR,XY,XY,bank_transfer,charity,198.51.100.245,online shopping,Legal
+167,10000,GBP,GB,RU,crypto,electronics,198.51.100.41,large donation,Suspicious
+168,200,GBP,AE,RU,debit_card,charity,198.51.100.217,travel booking,Legal
+169,200,EUR,XY,US,debit_card,luxury,192.168.1.9,salary transfer,Legal
+170,500,GBP,IR,AE,credit_card,electronics,198.51.100.14,grocery payment,Legal
+171,1000,GBP,IR,RU,credit_card,charity,10.0.0.141,drug trade,Illegal
+172,1000,EUR,RU,IN,crypto,travel,10.0.0.39,travel booking,Legal
+173,25000,AED,XY,GB,debit_card,travel,203.0.113.54,large donation,Suspicious
+174,200,GBP,RU,GB,cash,electronics,198.51.100.148,grocery payment,Legal
+175,50,USD,GB,AE,crypto,education,10.0.0.116,"consulting, please ignore reference",Suspicious
+176,25000,INR,IN,CN,cash,retail,10.0.0.254,arms deal,Illegal
+177,25000,INR,GB,XY,bank_transfer,pharma,203.0.113.80,"consulting, please ignore reference",Suspicious
+178,50,INR,RU,CN,cash,retail,10.0.0.77,travel booking,Legal
+179,500,AED,IN,XY,cash,electronics,172.16.0.226,grocery payment,Legal
+180,25000,AED,GB,US,credit_card,electronics,10.0.0.173,family support abroad,Suspicious
+181,200,USD,IN,AE,bank_transfer,luxury,198.51.100.17,large donation,Suspicious
+182,200,GBP,RU,XY,bank_transfer,education,172.16.0.234,urgent transfer,Suspicious
+183,200,INR,GB,IN,cash,electronics,10.0.0.87,online shopping,Legal
+184,25000,EUR,RU,XY,credit_card,education,203.0.113.34,crypto investment,Suspicious
+185,1000,EUR,US,GB,debit_card,travel,198.51.100.59,"consulting, please ignore reference",Suspicious
+186,1000,GBP,CN,GB,crypto,charity,192.168.1.46,crypto investment,Suspicious
+187,10000,AED,AE,XY,cash,education,198.51.100.146,travel booking,Legal
+188,1000,EUR,IR,US,crypto,electronics,198.51.100.125,arms deal,Illegal
+189,25000,EUR,IN,GB,debit_card,electronics,192.168.1.21,salary transfer,Legal
+190,200,EUR,RU,AE,crypto,education,203.0.113.229,funds for terrorist group,Illegal
+191,50,INR,CN,US,crypto,luxury,203.0.113.3,online shopping,Legal
+192,50000,USD,AE,US,debit_card,charity,198.51.100.90,utility bill,Legal
+193,1000,USD,RU,IR,bank_transfer,charity,192.168.1.229,grocery payment,Legal
+194,100000,INR,XY,IR,bank_transfer,luxury,192.168.1.81,grocery payment,Legal
+195,100000,AED,US,XY,cash,electronics,203.0.113.93,business deal,Suspicious
+196,100000,USD,XY,IR,cash,charity,192.168.1.30,travel booking,Legal
+197,10000,GBP,AE,IR,cash,pharma,192.168.1.207,drug trade,Illegal
+198,25000,INR,AE,IR,bank_transfer,pharma,198.51.100.140,grocery payment,Legal
+199,50000,GBP,IR,IN,debit_card,electronics,198.51.100.10,utility bill,Legal
+200,50000,INR,IR,IR,crypto,retail,10.0.0.235,family support abroad,Suspicious
+201,1000,GBP,RU,IR,debit_card,pharma,203.0.113.253,fake passport,Illegal
+202,50,GBP,IR,IR,debit_card,pharma,192.168.1.246,travel booking,Legal
+203,50,AED,GB,XY,credit_card,travel,192.168.1.23,school fees,Legal
+204,500,AED,AE,CN,bank_transfer,electronics,172.16.0.136,"consulting, please ignore reference",Suspicious
+205,200,INR,US,IN,crypto,travel,172.16.0.185,urgent transfer,Suspicious
+206,10000,USD,AE,GB,bank_transfer,charity,203.0.113.123,utility bill,Legal
+207,50000,EUR,IR,CN,bank_transfer,luxury,203.0.113.239,crypto investment,Suspicious
+208,50000,GBP,AE,CN,debit_card,charity,192.168.1.154,"consulting, please ignore reference",Suspicious
+209,50,INR,XY,GB,cash,education,203.0.113.175,monthly subscription,Legal
+210,50,INR,US,AE,credit_card,luxury,192.168.1.104,darknet purchase,Illegal
+211,10000,INR,XY,XY,crypto,travel,172.16.0.252,urgent transfer,Suspicious
+212,50,USD,IR,CN,crypto,retail,198.51.100.46,online shopping,Legal
+213,100000,EUR,CN,GB,cash,electronics,10.0.0.11,online shopping,Legal
+214,200,EUR,XY,RU,credit_card,electronics,172.16.0.181,funds for terrorist group,Illegal
+215,50000,INR,IR,RU,crypto,electronics,192.168.1.253,salary transfer,Legal
+216,100000,INR,AE,IR,cash,charity,172.16.0.66,grocery payment,Legal
+217,100000,AED,GB,US,crypto,travel,192.168.1.114,arms deal,Illegal
+218,100000,AED,CN,GB,cash,retail,198.51.100.89,urgent transfer,Suspicious
+219,1000,INR,IR,AE,crypto,travel,192.168.1.5,utility bill,Legal
+220,50,AED,IN,IN,cash,electronics,203.0.113.76,large donation,Suspicious
+221,50,GBP,US,RU,debit_card,charity,10.0.0.97,salary transfer,Legal
+222,50,USD,IR,IR,bank_transfer,charity,198.51.100.221,online shopping,Legal
+223,1000,AED,IR,GB,cash,travel,203.0.113.70,family support abroad,Suspicious
+224,50,INR,XY,CN,debit_card,electronics,10.0.0.211,family support abroad,Suspicious
+225,200,USD,IN,AE,bank_transfer,pharma,203.0.113.55,school fees,Legal
+226,25000,AED,IR,GB,cash,charity,172.16.0.206,monthly subscription,Legal
+227,10000,USD,RU,IR,crypto,electronics,192.168.1.65,grocery payment,Legal
+228,50,EUR,IN,RU,crypto,education,192.168.1.123,school fees,Legal
+229,100000,USD,US,XY,crypto,electronics,192.168.1.218,monthly subscription,Legal
+230,1000,EUR,IN,GB,bank_transfer,retail,172.16.0.86,grocery payment,Legal
+231,200,EUR,IN,US,debit_card,charity,192.168.1.95,"consulting, please ignore reference",Suspicious
+232,200,AED,IN,IR,credit_card,retail,198.51.100.8,utility bill,Legal
+233,200,EUR,US,IN,crypto,charity,10.0.0.35,drug trade,Illegal
+234,100000,EUR,XY,IN,debit_card,charity,198.51.100.190,monthly subscription,Legal
+235,50,GBP,US,IR,debit_card,charity,10.0.0.47,online shopping,Legal
+236,500,INR,RU,CN,bank_transfer,electronics,192.168.1.132,payment for banned goods,Illegal
+237,200,GBP,IN,IR,debit_card,retail,10.0.0.121,funds for terrorist group,Illegal
+238,1000,GBP,XY,XY,cash,retail,192.168.1.55,online shopping,Legal
+239,25000,INR,RU,GB,cash,pharma,10.0.0.93,"consulting, please ignore reference",Suspicious
+240,50,USD,AE,US,crypto,education,192.168.1.196,family support abroad,Suspicious
+241,200,AED,XY,XY,cash,pharma,192.168.1.110,urgent transfer,Suspicious
+242,500,GBP,GB,AE,bank_transfer,education,198.51.100.53,family support abroad,Suspicious
+243,200,INR,US,GB,bank_transfer,charity,203.0.113.24,payment for banned goods,Illegal
+244,100000,EUR,CN,US,credit_card,travel,198.51.100.136,utility bill,Legal
+245,1000,INR,RU,US,cash,education,10.0.0.230,grocery payment,Legal
+246,25000,INR,AE,GB,crypto,pharma,172.16.0.227,payment for banned goods,Illegal
+247,100000,INR,AE,US,bank_transfer,retail,198.51.100.99,crypto investment,Suspicious
+248,25000,GBP,RU,RU,credit_card,retail,192.168.1.235,fake passport,Illegal
+249,1000,INR,XY,IN,cash,education,203.0.113.205,salary transfer,Legal
+250,1000,EUR,US,RU,credit_card,luxury,192.168.1.130,school fees,Legal
+251,200,INR,IR,RU,cash,luxury,192.168.1.190,grocery payment,Legal
+252,10000,USD,US,IR,credit_card,luxury,198.51.100.200,salary transfer,Legal
+253,100000,GBP,GB,XY,debit_card,electronics,192.168.1.144,crypto investment,Suspicious
+254,25000,USD,XY,US,credit_card,electronics,172.16.0.213,monthly subscription,Legal
+255,1000,EUR,US,CN,cash,charity,172.16.0.89,utility bill,Legal
+256,25000,AED,IR,RU,debit_card,luxury,10.0.0.147,school fees,Legal
+257,200,AED,US,IN,crypto,luxury,10.0.0.34,online shopping,Legal
+258,1000,INR,US,IR,bank_transfer,pharma,198.51.100.119,salary transfer,Legal
+259,500,EUR,IN,IR,bank_transfer,retail,172.16.0.109,large donation,Suspicious
+260,50000,GBP,GB,US,debit_card,travel,10.0.0.32,payment for banned goods,Illegal
+261,1000,INR,IR,CN,cash,travel,10.0.0.19,online shopping,Legal
+262,10000,AED,CN,GB,credit_card,luxury,192.168.1.132,utility bill,Legal
+263,50,GBP,RU,RU,credit_card,travel,198.51.100.43,business deal,Suspicious
+264,1000,USD,IR,IN,debit_card,pharma,198.51.100.43,utility bill,Legal
+265,10000,EUR,CN,US,crypto,retail,192.168.1.246,"consulting, please ignore reference",Suspicious
+266,50,EUR,RU,RU,crypto,pharma,203.0.113.170,utility bill,Legal
+267,50,INR,IN,IN,bank_transfer,travel,203.0.113.119,travel booking,Legal
+268,50000,EUR,IR,GB,crypto,travel,192.168.1.116,monthly subscription,Legal
+269,50,AED,RU,CN,credit_card,pharma,203.0.113.79,travel booking,Legal
+270,1000,USD,IN,GB,cash,luxury,10.0.0.205,large donation,Suspicious
+271,100000,USD,XY,US,cash,charity,198.51.100.134,large donation,Suspicious
+272,1000,GBP,GB,GB,debit_card,electronics,172.16.0.188,school fees,Legal
+273,50000,INR,US,CN,cash,education,10.0.0.73,arms deal,Illegal
+274,500,EUR,IR,RU,debit_card,travel,10.0.0.230,school fees,Legal
+275,200,EUR,AE,CN,cash,travel,10.0.0.40,fake passport,Illegal
+276,100000,USD,IN,RU,bank_transfer,pharma,198.51.100.194,"consulting, please ignore reference",Suspicious
+277,25000,INR,CN,US,cash,travel,203.0.113.44,utility bill,Legal
+278,10000,AED,IR,US,crypto,retail,192.168.1.214,fake passport,Illegal
+279,500,USD,CN,IN,crypto,travel,192.168.1.84,urgent transfer,Suspicious
+280,100000,GBP,GB,GB,debit_card,pharma,192.168.1.2,school fees,Legal
+281,10000,GBP,XY,IR,bank_transfer,education,172.16.0.232,funds for terrorist group,Illegal
+282,10000,USD,IN,RU,crypto,charity,172.16.0.119,crypto investment,Suspicious
+283,25000,EUR,AE,RU,cash,charity,198.51.100.104,urgent transfer,Suspicious
+284,10000,USD,AE,RU,credit_card,electronics,172.16.0.25,utility bill,Legal
+285,50,EUR,US,AE,bank_transfer,retail,203.0.113.106,school fees,Legal
+286,100000,USD,US,RU,bank_transfer,education,10.0.0.176,crypto investment,Suspicious
+287,25000,INR,IR,RU,bank_transfer,charity,192.168.1.113,payment for banned goods,Illegal
+288,50,AED,GB,XY,cash,pharma,172.16.0.42,"consulting, please ignore reference",Suspicious
+289,500,AED,RU,RU,crypto,travel,192.168.1.58,family support abroad,Suspicious
+290,200,EUR,XY,IN,debit_card,charity,10.0.0.115,monthly subscription,Legal
+291,10000,GBP,CN,XY,bank_transfer,retail,10.0.0.24,online shopping,Legal
+292,50,EUR,IN,US,credit_card,electronics,172.16.0.158,"consulting, please ignore reference",Suspicious
+293,10000,AED,IR,US,credit_card,electronics,192.168.1.34,monthly subscription,Legal
+294,1000,INR,US,XY,crypto,education,203.0.113.30,family support abroad,Suspicious
+295,25000,AED,XY,IN,debit_card,charity,203.0.113.174,"consulting, please ignore reference",Suspicious
+296,10000,EUR,CN,GB,cash,luxury,192.168.1.30,monthly subscription,Legal
+297,200,GBP,US,GB,debit_card,luxury,203.0.113.138,grocery payment,Legal
+298,500,AED,XY,IN,debit_card,electronics,172.16.0.70,utility bill,Legal
+299,50000,INR,AE,CN,crypto,charity,192.168.1.195,salary transfer,Legal
+300,50000,INR,AE,CN,bank_transfer,charity,198.51.100.69,large donation,Suspicious
+301,50,INR,XY,XY,bank_transfer,charity,172.16.0.112,darknet purchase,Illegal
+302,10000,AED,RU,IN,bank_transfer,retail,203.0.113.129,travel booking,Legal
+303,200,EUR,XY,GB,crypto,luxury,172.16.0.165,salary transfer,Legal
+304,25000,EUR,AE,IR,credit_card,luxury,203.0.113.43,crypto investment,Suspicious
+305,25000,EUR,CN,XY,credit_card,charity,192.168.1.152,grocery payment,Legal
+306,100000,GBP,RU,XY,cash,charity,203.0.113.221,monthly subscription,Legal
+307,10000,GBP,IN,RU,credit_card,travel,203.0.113.177,drug trade,Illegal
+308,50,USD,IN,XY,credit_card,travel,203.0.113.48,travel booking,Legal
+309,1000,GBP,IN,RU,debit_card,pharma,192.168.1.81,monthly subscription,Legal
+310,50000,EUR,GB,IR,crypto,travel,192.168.1.26,"consulting, please ignore reference",Suspicious
+311,200,GBP,GB,US,bank_transfer,charity,198.51.100.70,school fees,Legal
+312,50000,EUR,IR,US,credit_card,travel,198.51.100.162,payment for banned goods,Illegal
+313,50000,AED,US,CN,crypto,luxury,172.16.0.96,travel booking,Legal
+314,25000,USD,US,RU,debit_card,retail,192.168.1.146,business deal,Suspicious
+315,50000,GBP,IN,US,cash,luxury,203.0.113.66,crypto investment,Suspicious
+316,200,USD,GB,RU,crypto,pharma,10.0.0.199,grocery payment,Legal
+317,50000,EUR,IR,XY,bank_transfer,luxury,192.168.1.113,fake passport,Illegal
+318,500,EUR,RU,RU,credit_card,education,10.0.0.219,"consulting, please ignore reference",Suspicious
+319,100000,AED,IN,CN,cash,electronics,172.16.0.31,monthly subscription,Legal
+320,50000,EUR,US,XY,crypto,electronics,172.16.0.96,urgent transfer,Suspicious
+321,1000,AED,GB,IN,crypto,pharma,198.51.100.49,online shopping,Legal
+322,1000,INR,IN,US,cash,charity,10.0.0.246,grocery payment,Legal
+323,25000,INR,IR,RU,bank_transfer,electronics,172.16.0.161,salary transfer,Legal
+324,10000,GBP,IR,RU,crypto,charity,10.0.0.131,grocery payment,Legal
+325,100000,EUR,CN,IR,crypto,luxury,10.0.0.135,crypto investment,Suspicious
+326,50,EUR,AE,CN,debit_card,education,172.16.0.169,school fees,Legal
+327,200,GBP,US,IR,debit_card,retail,172.16.0.57,online shopping,Legal
+328,200,AED,CN,IR,crypto,charity,198.51.100.139,online shopping,Legal
+329,50,AED,XY,CN,credit_card,luxury,203.0.113.174,large donation,Suspicious
+330,1000,USD,CN,CN,bank_transfer,luxury,10.0.0.170,urgent transfer,Suspicious
+331,25000,USD,US,RU,bank_transfer,retail,172.16.0.128,business deal,Suspicious
+332,500,AED,GB,IN,debit_card,charity,10.0.0.25,family support abroad,Suspicious
+333,1000,GBP,CN,IR,crypto,education,172.16.0.133,grocery payment,Legal
+334,10000,EUR,XY,RU,crypto,pharma,172.16.0.222,online shopping,Legal
+335,1000,GBP,RU,RU,credit_card,education,203.0.113.135,school fees,Legal
+336,10000,USD,IN,GB,cash,luxury,203.0.113.217,darknet purchase,Illegal
+337,50000,INR,IN,XY,crypto,education,203.0.113.202,urgent transfer,Suspicious
+338,200,INR,XY,US,bank_transfer,education,172.16.0.64,"consulting, please ignore reference",Suspicious
+339,50,INR,US,XY,bank_transfer,luxury,198.51.100.34,fake passport,Illegal
+340,50,USD,GB,IN,credit_card,pharma,198.51.100.169,travel booking,Legal
+341,25000,AED,CN,IN,debit_card,retail,192.168.1.72,urgent transfer,Suspicious
+342,50,GBP,AE,IN,cash,pharma,198.51.100.23,school fees,Legal
+343,100000,EUR,AE,XY,debit_card,charity,203.0.113.50,family support abroad,Suspicious
+344,25000,EUR,GB,XY,cash,charity,192.168.1.73,monthly subscription,Legal
+345,25000,USD,IN,XY,credit_card,travel,172.16.0.221,payment for banned goods,Illegal
+346,50000,USD,CN,CN,cash,education,203.0.113.231,monthly subscription,Legal
+347,10000,EUR,IR,US,crypto,education,198.51.100.2,salary transfer,Legal
+348,200,AED,AE,CN,crypto,education,172.16.0.74,utility bill,Legal
+349,50000,INR,RU,CN,debit_card,luxury,192.168.1.199,utility bill,Legal
+350,1000,INR,IN,IR,crypto,retail,203.0.113.72,urgent transfer,Suspicious
+351,50,INR,GB,IN,cash,pharma,172.16.0.205,online shopping,Legal
+352,1000,USD,XY,IR,crypto,pharma,198.51.100.14,crypto investment,Suspicious
+353,200,USD,RU,US,cash,charity,198.51.100.80,urgent transfer,Suspicious
+354,10000,INR,GB,XY,crypto,education,172.16.0.158,family support abroad,Suspicious
+355,1000,GBP,US,IR,debit_card,luxury,198.51.100.136,travel booking,Legal
+356,200,EUR,XY,IR,bank_transfer,electronics,203.0.113.172,school fees,Legal
+357,200,INR,US,GB,bank_transfer,pharma,198.51.100.96,family support abroad,Suspicious
+358,1000,INR,AE,XY,bank_transfer,travel,203.0.113.205,salary transfer,Legal
+359,100000,USD,IN,AE,bank_transfer,travel,172.16.0.198,funds for terrorist group,Illegal
+360,50,INR,GB,US,bank_transfer,education,198.51.100.159,salary transfer,Legal
+361,50,EUR,IN,GB,cash,travel,192.168.1.170,urgent transfer,Suspicious
+362,500,USD,IR,US,credit_card,electronics,192.168.1.226,crypto investment,Suspicious
+363,25000,USD,IN,XY,credit_card,retail,10.0.0.192,"consulting, please ignore reference",Suspicious
+364,10000,USD,RU,AE,credit_card,luxury,203.0.113.203,monthly subscription,Legal
+365,100000,EUR,AE,IR,credit_card,travel,10.0.0.228,utility bill,Legal
+366,50,INR,IN,XY,cash,charity,10.0.0.178,payment for banned goods,Illegal
+367,50000,INR,XY,RU,credit_card,education,198.51.100.247,grocery payment,Legal
+368,500,USD,CN,XY,crypto,pharma,198.51.100.215,business deal,Suspicious
+369,1000,USD,RU,CN,bank_transfer,retail,203.0.113.237,salary transfer,Legal
+370,10000,INR,RU,AE,crypto,pharma,172.16.0.4,travel booking,Legal
+371,1000,GBP,IR,US,credit_card,pharma,203.0.113.111,utility bill,Legal
+372,25000,EUR,US,IR,bank_transfer,pharma,172.16.0.102,school fees,Legal
+373,50000,USD,GB,RU,cash,retail,198.51.100.11,payment for banned goods,Illegal
+374,50000,INR,GB,IR,cash,retail,203.0.113.252,school fees,Legal
+375,1000,GBP,GB,US,credit_card,pharma,192.168.1.118,grocery payment,Legal
+376,500,INR,XY,AE,bank_transfer,charity,172.16.0.4,grocery payment,Legal
+377,50000,USD,US,IR,bank_transfer,electronics,10.0.0.187,salary transfer,Legal
+378,10000,EUR,GB,AE,debit_card,education,10.0.0.145,arms deal,Illegal
+379,25000,AED,XY,CN,credit_card,luxury,172.16.0.104,utility bill,Legal
+380,50000,INR,CN,RU,credit_card,travel,203.0.113.206,darknet purchase,Illegal
+381,100000,AED,GB,GB,credit_card,pharma,203.0.113.189,darknet purchase,Illegal
+382,200,EUR,AE,US,crypto,travel,172.16.0.173,travel booking,Legal
+383,50000,GBP,GB,CN,cash,education,172.16.0.49,family support abroad,Suspicious
+384,200,EUR,IR,US,cash,electronics,172.16.0.49,arms deal,Illegal
+385,500,INR,US,XY,cash,retail,203.0.113.25,school fees,Legal
+386,100000,INR,GB,IN,debit_card,charity,172.16.0.241,crypto investment,Suspicious
+387,200,AED,IR,RU,crypto,charity,192.168.1.114,drug trade,Illegal
+388,200,GBP,IR,GB,credit_card,pharma,203.0.113.116,"consulting, please ignore reference",Suspicious
+389,500,INR,GB,RU,debit_card,luxury,10.0.0.166,travel booking,Legal
+390,200,GBP,US,XY,credit_card,charity,203.0.113.227,urgent transfer,Suspicious
+391,25000,AED,XY,AE,crypto,charity,203.0.113.73,grocery payment,Legal
+392,1000,AED,XY,IR,bank_transfer,retail,198.51.100.97,monthly subscription,Legal
+393,100000,USD,IR,CN,bank_transfer,retail,172.16.0.10,grocery payment,Legal
+394,100000,AED,US,AE,credit_card,luxury,192.168.1.223,utility bill,Legal
+395,200,GBP,IN,CN,debit_card,charity,172.16.0.212,school fees,Legal
+396,500,USD,GB,RU,bank_transfer,pharma,10.0.0.34,crypto investment,Suspicious
+397,50,EUR,CN,RU,bank_transfer,pharma,192.168.1.162,grocery payment,Legal
+398,50000,USD,AE,AE,crypto,charity,203.0.113.254,drug trade,Illegal
+399,50,EUR,US,IR,bank_transfer,luxury,172.16.0.24,online shopping,Legal
+400,500,USD,AE,IR,credit_card,luxury,172.16.0.228,travel booking,Legal
+401,1000,USD,AE,CN,bank_transfer,luxury,198.51.100.56,large donation,Suspicious
+402,25000,EUR,CN,IR,bank_transfer,pharma,10.0.0.148,online shopping,Legal
+403,10000,GBP,IN,US,bank_transfer,travel,198.51.100.210,"consulting, please ignore reference",Suspicious
+404,50,EUR,GB,AE,bank_transfer,retail,192.168.1.28,large donation,Suspicious
+405,50000,EUR,US,XY,credit_card,education,203.0.113.28,travel booking,Legal
+406,100000,INR,RU,IR,credit_card,luxury,10.0.0.27,salary transfer,Legal
+407,50,GBP,GB,AE,bank_transfer,travel,203.0.113.131,grocery payment,Legal
+408,1000,INR,RU,IR,credit_card,travel,203.0.113.110,utility bill,Legal
+409,1000,AED,US,US,debit_card,electronics,192.168.1.141,fake passport,Illegal
+410,50000,USD,US,RU,crypto,charity,10.0.0.208,monthly subscription,Legal
+411,500,INR,RU,RU,debit_card,education,192.168.1.108,large donation,Suspicious
+412,200,GBP,IR,CN,debit_card,education,203.0.113.242,travel booking,Legal
+413,200,AED,AE,XY,bank_transfer,education,198.51.100.195,funds for terrorist group,Illegal
+414,50000,GBP,GB,XY,crypto,luxury,10.0.0.23,school fees,Legal
+415,50,EUR,US,IN,credit_card,luxury,192.168.1.249,school fees,Legal
+416,10000,EUR,CN,GB,credit_card,retail,203.0.113.151,grocery payment,Legal
+417,50000,EUR,GB,XY,crypto,electronics,172.16.0.210,travel booking,Legal
+418,100000,INR,XY,XY,bank_transfer,luxury,198.51.100.240,urgent transfer,Suspicious
+419,50,GBP,US,AE,bank_transfer,charity,172.16.0.135,online shopping,Legal
+420,500,AED,AE,US,credit_card,education,10.0.0.53,salary transfer,Legal
+421,200,INR,IN,IN,credit_card,retail,10.0.0.125,arms deal,Illegal
+422,500,INR,GB,CN,cash,pharma,10.0.0.100,utility bill,Legal
+423,200,USD,AE,RU,credit_card,retail,172.16.0.161,school fees,Legal
+424,500,INR,GB,US,bank_transfer,electronics,203.0.113.75,monthly subscription,Legal
+425,25000,EUR,RU,AE,bank_transfer,pharma,192.168.1.52,"consulting, please ignore reference",Suspicious
+426,100000,GBP,RU,IR,debit_card,education,172.16.0.29,monthly subscription,Legal
+427,25000,GBP,AE,IN,bank_transfer,pharma,198.51.100.224,large donation,Suspicious
+428,50000,INR,IR,CN,crypto,retail,10.0.0.144,travel booking,Legal
+429,50000,GBP,IR,CN,credit_card,electronics,10.0.0.7,school fees,Legal
+430,200,INR,AE,CN,credit_card,retail,203.0.113.43,business deal,Suspicious
+431,25000,AED,GB,GB,bank_transfer,education,198.51.100.131,grocery payment,Legal
+432,500,INR,AE,IR,cash,electronics,192.168.1.20,salary transfer,Legal
+433,200,USD,US,AE,cash,luxury,192.168.1.67,grocery payment,Legal
+434,1000,AED,XY,US,bank_transfer,pharma,172.16.0.92,urgent transfer,Suspicious
+435,100000,AED,GB,RU,debit_card,education,198.51.100.169,online shopping,Legal
+436,50000,INR,CN,IN,crypto,electronics,203.0.113.48,arms deal,Illegal
+437,25000,INR,US,IR,bank_transfer,charity,198.51.100.248,"consulting, please ignore reference",Suspicious
+438,50,GBP,AE,GB,bank_transfer,retail,192.168.1.251,urgent transfer,Suspicious
+439,100000,GBP,AE,RU,debit_card,electronics,10.0.0.133,payment for banned goods,Illegal
+440,10000,USD,IR,US,bank_transfer,travel,10.0.0.49,salary transfer,Legal
+441,500,INR,US,IR,crypto,luxury,10.0.0.53,salary transfer,Legal
+442,200,GBP,IN,GB,bank_transfer,retail,203.0.113.37,large donation,Suspicious
+443,1000,EUR,AE,IN,debit_card,luxury,203.0.113.102,grocery payment,Legal
+444,1000,AED,RU,IN,bank_transfer,education,198.51.100.38,monthly subscription,Legal
+445,200,AED,GB,GB,credit_card,pharma,10.0.0.251,salary transfer,Legal
+446,200,GBP,XY,US,cash,charity,172.16.0.239,family support abroad,Suspicious
+447,200,USD,XY,XY,crypto,retail,10.0.0.199,salary transfer,Legal
+448,1000,AED,AE,AE,bank_transfer,pharma,10.0.0.139,travel booking,Legal
+449,10000,USD,CN,CN,crypto,education,172.16.0.173,monthly subscription,Legal
+450,10000,AED,IN,CN,cash,education,192.168.1.167,school fees,Legal
+451,100000,GBP,US,US,debit_card,charity,192.168.1.72,fake passport,Illegal
+452,100000,GBP,RU,CN,crypto,travel,172.16.0.73,drug trade,Illegal
+453,100000,EUR,US,AE,cash,education,172.16.0.18,travel booking,Legal
+454,200,AED,IR,CN,crypto,retail,10.0.0.48,travel booking,Legal
+455,10000,GBP,IR,GB,bank_transfer,education,198.51.100.233,grocery payment,Legal
+456,200,EUR,GB,IN,cash,retail,192.168.1.238,travel booking,Legal
+457,10000,USD,XY,GB,debit_card,pharma,192.168.1.160,monthly subscription,Legal
+458,25000,EUR,IR,CN,debit_card,education,192.168.1.106,payment for banned goods,Illegal
+459,100000,USD,RU,IN,credit_card,luxury,198.51.100.39,school fees,Legal
+460,10000,INR,XY,US,cash,pharma,198.51.100.173,monthly subscription,Legal
+461,50,GBP,GB,IN,cash,luxury,10.0.0.5,urgent transfer,Suspicious
+462,10000,INR,GB,XY,debit_card,education,198.51.100.90,monthly subscription,Legal
+463,50000,USD,AE,AE,cash,travel,203.0.113.106,monthly subscription,Legal
+464,50000,USD,CN,CN,credit_card,luxury,10.0.0.204,school fees,Legal
+465,10000,AED,IN,RU,bank_transfer,travel,10.0.0.53,online shopping,Legal
+466,1000,INR,CN,US,debit_card,travel,203.0.113.248,monthly subscription,Legal
+467,200,INR,IR,US,cash,travel,203.0.113.104,utility bill,Legal
+468,50000,AED,CN,RU,crypto,pharma,172.16.0.162,salary transfer,Legal
+469,100000,USD,XY,IR,cash,charity,10.0.0.88,utility bill,Legal
+470,50000,EUR,US,AE,cash,education,10.0.0.135,grocery payment,Legal
+471,200,AED,CN,IN,crypto,pharma,172.16.0.19,monthly subscription,Legal
+472,50,USD,XY,GB,bank_transfer,charity,203.0.113.76,monthly subscription,Legal
+473,200,GBP,IR,GB,debit_card,charity,10.0.0.154,travel booking,Legal
+474,200,AED,IR,GB,debit_card,pharma,203.0.113.241,grocery payment,Legal
+475,100000,GBP,GB,AE,crypto,retail,10.0.0.225,crypto investment,Suspicious
+476,500,EUR,GB,XY,credit_card,luxury,198.51.100.216,online shopping,Legal
+477,25000,INR,AE,IN,debit_card,charity,203.0.113.135,salary transfer,Legal
+478,200,USD,IR,RU,bank_transfer,travel,10.0.0.212,funds for terrorist group,Illegal
+479,1000,GBP,XY,XY,credit_card,electronics,192.168.1.61,utility bill,Legal
+480,500,USD,CN,CN,debit_card,luxury,203.0.113.25,arms deal,Illegal
+481,500,INR,US,CN,cash,pharma,203.0.113.239,monthly subscription,Legal
+482,10000,USD,XY,IR,cash,travel,198.51.100.122,travel booking,Legal
+483,500,INR,GB,IR,credit_card,travel,172.16.0.142,funds for terrorist group,Illegal
+484,200,AED,IN,US,bank_transfer,education,10.0.0.31,urgent transfer,Suspicious
+485,100000,GBP,US,IR,cash,charity,203.0.113.252,utility bill,Legal
+486,25000,USD,IN,GB,crypto,electronics,198.51.100.153,grocery payment,Legal
+487,10000,GBP,US,XY,cash,pharma,172.16.0.179,travel booking,Legal
+488,200,EUR,GB,US,cash,travel,172.16.0.141,school fees,Legal
+489,500,USD,GB,CN,crypto,travel,10.0.0.89,travel booking,Legal
+490,200,AED,IN,IR,debit_card,retail,198.51.100.91,school fees,Legal
+491,200,USD,US,IR,cash,retail,10.0.0.106,business deal,Suspicious
+492,200,GBP,AE,RU,bank_transfer,charity,192.168.1.42,crypto investment,Suspicious
+493,100000,GBP,RU,IN,debit_card,charity,192.168.1.77,large donation,Suspicious
+494,50,INR,RU,RU,cash,travel,198.51.100.171,school fees,Legal
+495,25000,USD,CN,XY,cash,retail,172.16.0.85,utility bill,Legal
+496,500,USD,RU,IR,bank_transfer,electronics,10.0.0.9,utility bill,Legal
+497,1000,GBP,IN,US,debit_card,pharma,192.168.1.38,online shopping,Legal
+498,200,EUR,IR,IN,credit_card,retail,203.0.113.20,school fees,Legal
+499,10000,USD,US,US,cash,electronics,192.168.1.186,online shopping,Legal
+500,200,AED,IR,RU,crypto,retail,10.0.0.223,school fees,Legal

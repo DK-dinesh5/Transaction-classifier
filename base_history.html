@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>History — FinSecure</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename=style.css') }}">
+</head>
+<body>
+  <div class="topbar">
+    <a href="{{ url_for('index') }}">Home</a> |
+    <a href="{{ url_for('history') }}">History</a> |
+    <a href="{{ url_for('reports') }}">Reports</a> |
+    {% if session.username %}
+      <span>Hi, {{ session.username }}</span> | <a href="{{ url_for('logout') }}">Logout</a>
+    {% endif %}
+  </div>
+  <div class="container small">
+    {% block content %}{% endblock %}
+  </div>
+</body>
+</html>
