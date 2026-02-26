@@ -252,7 +252,7 @@ This project is for educational purposes.
 
 ## 👨‍💻 Author
 
-Developed by Dinesh kumar
+Developed by Dineshkumar
 
 ---
 
