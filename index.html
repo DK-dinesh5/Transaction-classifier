@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Transaction Classifier Dashboard</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="sidebar">
+    <h2>💳 secure Transaction</h2>
+    <ul>
+      <li><a href="{{ url_for('index') }}" class="active">Dashboard</a></li>
+      <li><a href="{{ url_for('history') }}">History</a></li>
+      <li><a href="{{ url_for('reports') }}">Reports</a></li>
+      <li><a href="{{ url_for('logout') }}">Logout</a></li>
+    </ul>
+  </div>
+
+  <div class="main">
+    <h1>Transaction Classifier</h1>
+    <p>Classify transactions as <b>Legal</b>, <b>Illegal</b>, or <b>Suspicious</b>.</p>
+
+    <div class="form-box">
+      <textarea id="description" placeholder="Enter transaction details..."></textarea>
+      <input type="text" id="amount" placeholder="Amount (optional)">
+      <input type="text" id="sender_country" placeholder="Sender Country">
+      <input type="text" id="receiver_country" placeholder="Receiver Country">
+      <input type="text" id="payment_method" placeholder="Payment Method">
+      <input type="text" id="merchant_category" placeholder="Merchant Category">
+      <button id="analyze">Analyze Transaction</button>
+    </div>
+
+    <div id="result" class="result-box"></div>
+  </div>
+
+  <script>
+    document.getElementById("analyze").onclick = async () => {
+      const description = document.getElementById("description").value.trim();
+      if (!description) return alert("Please enter a description.");
+
+      const payload = {
+        description,
+        amount: document.getElementById("amount").value,
+        sender_country: document.getElementById("sender_country").value,
+        receiver_country: document.getElementById("receiver_country").value,
+        payment_method: document.getElementById("payment_method").value,
+        merchant_category: document.getElementById("merchant_category").value
+      };
+
+      document.getElementById("result").innerHTML = "<p>🔍 Analyzing...</p>";
+
+      const res = await fetch("/predict", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload)
+      });
+      const data = await res.json();
+
+      if (data.error) {
+        document.getElementById("result").innerHTML = `<p class="error">${data.error}</p>`;
+        return;
+      }
+
+      document.getElementById("result").innerHTML = `
+        <h3>Result: ${data.label}</h3>
+        <p><b>Confidence:</b> ${(data.score * 100).toFixed(2)}%</p>
+        <p><b>Reason:</b> ${data.reason}</p>
+      `;
+
+      // Save to history (only if logged in)
+      await fetch("/save", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ ...payload, ...data })
+      });
+    };
+  </script>
+</body>
+</html>

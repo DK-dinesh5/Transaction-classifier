@@ -212,7 +212,6 @@ def predict():
             "details": model_load_error or "Model failed to initialize"
         }), 503
 
-    # Build context
     context_parts = []
     if data.get("amount"):
         context_parts.append(f"Amount: ${data['amount']}")
