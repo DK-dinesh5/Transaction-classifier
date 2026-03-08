@@ -2,4 +2,4 @@
 NIXPACKS_PYTHON_VERSION = "3.10"
 
 [start]
-cmd = "gunicorn app:app --bind 0.0.0.0:$PORT --timeout 120"
+cmd = "python -m gunicorn app:app --bind 0.0.0.0:$PORT --timeout 120"
