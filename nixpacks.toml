@@ -1,0 +1,5 @@
+[variables]
+NIXPACKS_PYTHON_VERSION = "3.10"
+
+[start]
+cmd = "cd web_pages && python app.py"
